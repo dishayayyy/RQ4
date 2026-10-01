@@ -1,0 +1,9 @@
+intervention,n,mean_shift,median_shift,pct_reaching_success_15,pct_reaching_success_20,node,cohort
+gender_to_max,126,0.0,0.0,0.0,0.0,gender,Withdrawn
+gender_to_max,91,0.0,0.0,0.0,0.0,gender,Fail
+highest_education_to_max,126,0.0,0.0,0.0,0.0,highest_education,Withdrawn
+highest_education_to_max,91,0.0,0.0,0.0,0.0,highest_education,Fail
+age_band_to_max,126,0.47619047619047616,0.0,0.0,0.0,age_band,Withdrawn
+age_band_to_max,91,0.5274725274725275,1.0,52.74725274725275,52.74725274725275,age_band,Fail
+studied_credits_to_max,126,0.0,0.0,0.0,0.0,studied_credits,Withdrawn
+studied_credits_to_max,91,0.0,0.0,0.0,0.0,studied_credits,Fail
