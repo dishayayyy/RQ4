@@ -1,0 +1,38 @@
+factor,level,compared with,effect (pts),CI low,CI high,clear
+gender,M,F,1.3,-1.0,3.6,False
+age_band,35-55,0-35,-2.5,-3.9,-1.1,True
+highest_education,A Level or Equivalent,Lower Than A Level,-3.9,-5.5,-2.4,True
+highest_education,HE Qualification,Lower Than A Level,-2.8,-5.0,-0.7,True
+highest_education,No Formal quals,Lower Than A Level,4.0,-4.4,12.4,False
+imd_band,10-20%,0-10%,0.2,-3.1,3.5,False
+imd_band,20-30%,0-10%,-1.2,-4.4,1.9,False
+imd_band,30-40%,0-10%,-1.9,-5.0,1.2,False
+imd_band,40-50%,0-10%,-2.3,-5.4,0.8,False
+imd_band,50-60%,0-10%,-3.3,-6.3,-0.2,True
+imd_band,60-70%,0-10%,-2.0,-5.3,1.3,False
+imd_band,70-80%,0-10%,-4.9,-7.9,-1.9,True
+imd_band,80-90%,0-10%,-3.3,-6.6,0.0,False
+imd_band,90-100%,0-10%,-3.3,-6.8,0.1,False
+imd_band,missing,0-10%,-6.6,-12.0,-1.2,True
+disability,Y,N,-0.3,-2.8,2.2,False
+region,East Anglian Region,Wales,5.0,2.5,7.4,True
+region,East Midlands Region,Wales,6.2,3.1,9.4,True
+region,Ireland,Wales,0.8,-2.0,3.5,False
+region,London Region,Wales,8.6,5.4,11.7,True
+region,North Region,Wales,6.0,1.4,10.6,True
+region,North Western Region,Wales,11.2,7.4,15.0,True
+region,Scotland,Wales,0.3,-1.5,2.0,False
+region,South East Region,Wales,5.4,2.5,8.3,True
+region,South Region,Wales,7.5,4.6,10.5,True
+region,South West Region,Wales,5.3,2.5,8.1,True
+region,West Midlands Region,Wales,6.9,3.8,10.0,True
+region,Yorkshire Region,Wales,8.0,4.5,11.5,True
+num_of_prev_attempts,1,0,1.4,-1.0,3.8,False
+num_of_prev_attempts,2+,0,-0.4,-4.1,3.3,False
+studied_credits,61-90,<=60,0.9,-3.0,4.8,False
+studied_credits,>90,<=60,0.4,-1.3,2.1,False
+reg_timing,1-30 days before,31-60 days before,-0.7,-2.6,1.1,False
+reg_timing,61-90 days before,31-60 days before,-1.5,-3.5,0.6,False
+reg_timing,over 90 days before,31-60 days before,0.6,-1.5,2.7,False
+code_presentation,2013B,2013J,-2.0,-3.7,-0.2,True
+code_presentation,2014B,2013J,-3.6,-5.3,-1.9,True

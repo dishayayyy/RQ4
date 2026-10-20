@@ -1,0 +1,10 @@
+node,auto discrete R2,auto discrete invertible,linear R2,linear invertible,boosted R2,boosted invertible
+first_ass_score,0.116,no (p=2.03e-06),0.141,no (p=3.31e-05),0.155,no (p=9.1e-07)
+clicks_forumng_win,0.461,no (p=0),0.522,no (p=0),0.532,no (p=0)
+clicks_homepage_win,0.681,no (p=2.03e-06),0.739,no (p=0),0.747,no (p=0)
+clicks_oucontent_win,-0.009,no (p=0),0.101,no (p=0),0.065,no (p=0)
+clicks_quiz_win,0.308,no (p=9.99e-15),0.324,no (p=0),0.368,no (p=0)
+clicks_resource_win,0.018,no (p=0),0.119,no (p=0),0.123,no (p=0)
+clicks_subpage_win,0.656,no (p=0),0.717,no (p=0),0.708,no (p=0)
+clicks_url_win,0.033,no (p=0),0.124,no (p=0),0.125,no (p=0)
+final_result,0.096,no (p=7.82e-05),0.21,no (p=6.47e-11),0.172,no (p=2.12e-09)

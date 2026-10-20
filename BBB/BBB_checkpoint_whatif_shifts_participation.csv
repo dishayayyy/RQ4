@@ -1,0 +1,25 @@
+model,cohort,scenario,n,% affected,mean shift (all),mean shift (affected)
+linear,fail,start quiz,1372,38.3,0.08,0.209
+linear,fail,start forum,1372,48.6,0.106,0.218
+linear,fail,start content pages,1372,92.1,0.156,0.169
+linear,fail,homepage up one level,1372,87.0,0.165,0.19
+linear,fail,quiz + forum + content,1372,93.4,0.33,0.353
+linear,fail,all four,1372,96.9,0.473,0.488
+linear,late_leaver,start quiz,529,28.2,0.059,0.209
+linear,late_leaver,start forum,529,35.9,0.078,0.218
+linear,late_leaver,start content pages,529,90.5,0.153,0.169
+linear,late_leaver,homepage up one level,529,79.4,0.151,0.19
+linear,late_leaver,quiz + forum + content,529,91.3,0.282,0.309
+linear,late_leaver,all four,529,95.8,0.415,0.433
+boosted,fail,start quiz,1372,38.3,0.115,0.301
+boosted,fail,start forum,1372,48.6,0.125,0.258
+boosted,fail,start content pages,1372,92.1,0.385,0.418
+boosted,fail,homepage up one level,1372,87.0,0.211,0.242
+boosted,fail,quiz + forum + content,1372,93.4,0.453,0.485
+boosted,fail,all four,1372,96.9,0.514,0.531
+boosted,late_leaver,start quiz,529,28.2,0.099,0.352
+boosted,late_leaver,start forum,529,35.9,0.111,0.31
+boosted,late_leaver,start content pages,529,90.5,0.355,0.392
+boosted,late_leaver,homepage up one level,529,79.4,0.199,0.25
+boosted,late_leaver,quiz + forum + content,529,91.3,0.417,0.457
+boosted,late_leaver,all four,529,95.8,0.485,0.506

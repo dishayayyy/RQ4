@@ -1,0 +1,37 @@
+model,cohort,scenario,n,% affected,mean shift (all),mean shift (affected),% shift >= 0.5
+auto discrete,fail,start quiz,1372,38.3,0.112,0.292,1.8
+auto discrete,fail,start forum,1372,48.6,0.098,0.201,1.8
+auto discrete,fail,start content pages,1372,92.1,0.345,0.374,35.9
+auto discrete,fail,homepage up one level,1372,87.0,0.195,0.225,5.6
+auto discrete,fail,quiz + forum + content,1372,93.4,0.417,0.447,41.8
+auto discrete,fail,all four,1372,96.9,0.504,0.521,51.5
+auto discrete,late_leaver,start quiz,529,28.2,0.093,0.33,2.3
+auto discrete,late_leaver,start forum,529,35.9,0.09,0.251,3.4
+auto discrete,late_leaver,start content pages,529,90.5,0.321,0.355,31.2
+auto discrete,late_leaver,homepage up one level,529,79.4,0.214,0.27,9.8
+auto discrete,late_leaver,quiz + forum + content,529,91.3,0.389,0.426,35.5
+auto discrete,late_leaver,all four,529,95.8,0.494,0.516,49.0
+linear,fail,start quiz,1372,38.3,0.112,0.292,1.8
+linear,fail,start forum,1372,48.6,0.098,0.201,1.8
+linear,fail,start content pages,1372,92.1,0.345,0.374,35.9
+linear,fail,homepage up one level,1372,87.0,0.195,0.225,5.6
+linear,fail,quiz + forum + content,1372,93.4,0.417,0.447,41.8
+linear,fail,all four,1372,96.9,0.504,0.521,51.5
+linear,late_leaver,start quiz,529,28.2,0.093,0.33,2.3
+linear,late_leaver,start forum,529,35.9,0.09,0.251,3.4
+linear,late_leaver,start content pages,529,90.5,0.321,0.355,31.2
+linear,late_leaver,homepage up one level,529,79.4,0.214,0.27,9.8
+linear,late_leaver,quiz + forum + content,529,91.3,0.389,0.426,35.5
+linear,late_leaver,all four,529,95.8,0.494,0.516,49.0
+boosted,fail,start quiz,1372,38.3,0.112,0.292,1.8
+boosted,fail,start forum,1372,48.6,0.098,0.201,1.8
+boosted,fail,start content pages,1372,92.1,0.345,0.374,35.9
+boosted,fail,homepage up one level,1372,87.0,0.195,0.225,5.6
+boosted,fail,quiz + forum + content,1372,93.4,0.417,0.447,41.8
+boosted,fail,all four,1372,96.9,0.504,0.521,51.5
+boosted,late_leaver,start quiz,529,28.2,0.093,0.33,2.3
+boosted,late_leaver,start forum,529,35.9,0.09,0.251,3.4
+boosted,late_leaver,start content pages,529,90.5,0.321,0.355,31.2
+boosted,late_leaver,homepage up one level,529,79.4,0.214,0.27,9.8
+boosted,late_leaver,quiz + forum + content,529,91.3,0.389,0.426,35.5
+boosted,late_leaver,all four,529,95.8,0.494,0.516,49.0

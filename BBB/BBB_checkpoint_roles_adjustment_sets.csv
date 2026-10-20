@@ -1,0 +1,18 @@
+variable,role,path_to_outcome,direct_to_outcome,adjustment_set
+gender,immutable context,False,False,[]
+region,immutable context,True,False,[]
+highest_education,immutable context,True,True,[]
+imd_band,immutable context,False,False,[]
+age_band,immutable context,False,False,"['gender', 'highest_education']"
+num_of_prev_attempts,immutable context,False,False,[]
+studied_credits,immutable context,False,False,[]
+disability,immutable context,False,False,[]
+total_early,fixed context (known at checkpoint),True,False,[]
+first_ass_score,fixed context (known at checkpoint),True,True,"['region', 'total_early']"
+clicks_forumng_win,action-window activity,True,True,"['clicks_url_win', 'first_ass_score', 'total_early']"
+clicks_homepage_win,action-window activity,True,True,"['clicks_forumng_win', 'clicks_resource_win', 'clicks_url_win', 'first_ass_score', 'total_early']"
+clicks_oucontent_win,action-window activity,True,True,"['clicks_subpage_win', 'clicks_url_win', 'first_ass_score', 'total_early']"
+clicks_quiz_win,action-window activity,True,True,"['clicks_homepage_win', 'first_ass_score', 'total_early']"
+clicks_resource_win,action-window activity,True,True,"['first_ass_score', 'total_early']"
+clicks_subpage_win,action-window activity,True,False,"['clicks_forumng_win', 'clicks_homepage_win', 'clicks_quiz_win', 'clicks_resource_win', 'clicks_url_win', 'first_ass_score', 'total_early']"
+clicks_url_win,action-window activity,True,False,"['first_ass_score', 'total_early']"

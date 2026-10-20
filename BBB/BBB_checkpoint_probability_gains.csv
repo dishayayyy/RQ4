@@ -1,0 +1,25 @@
+model,cohort,scenario,% affected,chance before (%),chance after (%),"gain, all (pts)","gain, affected (pts)"
+linear,fail,start quiz,38.3,44.6,48.7,4.1,10.6
+linear,fail,start forum,48.6,44.6,50.1,5.5,11.3
+linear,fail,start content pages,92.1,44.6,52.5,7.9,8.6
+linear,fail,homepage up one level,87.0,44.6,52.9,8.3,9.5
+linear,fail,quiz + forum + content,93.4,44.6,62.9,18.3,19.6
+linear,fail,all four,96.9,44.6,69.4,24.8,25.6
+linear,late_leaver,start quiz,28.2,85.7,87.4,1.6,5.8
+linear,late_leaver,start forum,35.9,85.7,87.6,1.9,5.2
+linear,late_leaver,start content pages,90.5,85.7,88.4,2.7,3.0
+linear,late_leaver,homepage up one level,79.4,85.7,88.5,2.7,3.4
+linear,late_leaver,quiz + forum + content,91.3,85.7,91.1,5.4,5.9
+linear,late_leaver,all four,95.8,85.7,92.7,7.0,7.3
+boosted,fail,start quiz,38.3,41.8,47.8,6.0,15.7
+boosted,fail,start forum,48.6,41.8,48.3,6.5,13.4
+boosted,fail,start content pages,92.1,41.8,63.6,21.8,23.7
+boosted,fail,homepage up one level,87.0,41.8,53.2,11.4,13.1
+boosted,fail,quiz + forum + content,93.4,41.8,67.1,25.2,27.0
+boosted,fail,all four,96.9,41.8,70.5,28.7,29.6
+boosted,late_leaver,start quiz,28.2,85.1,87.8,2.7,9.7
+boosted,late_leaver,start forum,35.9,85.1,87.6,2.5,7.0
+boosted,late_leaver,start content pages,90.5,85.1,91.7,6.7,7.4
+boosted,late_leaver,homepage up one level,79.4,85.1,89.1,4.1,5.1
+boosted,late_leaver,quiz + forum + content,91.3,85.1,92.6,7.5,8.2
+boosted,late_leaver,all four,95.8,85.1,93.5,8.4,8.8

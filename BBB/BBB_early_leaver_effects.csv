@@ -1,0 +1,39 @@
+factor,level,compared with,effect (pts),CI low,CI high,clear
+gender,M,F,2.3,-0.7,5.3,False
+age_band,35-55,0-35,-3.5,-5.4,-1.5,True
+age_band,55<=,0-35,-16.5,-23.1,-10.0,True
+highest_education,A Level or Equivalent,Lower Than A Level,-5.6,-7.7,-3.5,True
+highest_education,HE Qualification,Lower Than A Level,-3.5,-6.7,-0.4,True
+highest_education,No Formal quals,Lower Than A Level,3.4,-6.3,13.1,False
+highest_education,Post Graduate Qualification,Lower Than A Level,-3.9,-20.8,13.1,False
+imd_band,10-20%,0-10%,0.1,-4.0,4.2,False
+imd_band,20-30%,0-10%,-0.2,-4.2,3.9,False
+imd_band,30-40%,0-10%,-4.2,-8.2,-0.2,True
+imd_band,40-50%,0-10%,-2.1,-6.2,2.0,False
+imd_band,50-60%,0-10%,-2.8,-7.1,1.4,False
+imd_band,60-70%,0-10%,-1.6,-6.0,2.8,False
+imd_band,70-80%,0-10%,-4.5,-8.8,-0.1,True
+imd_band,80-90%,0-10%,-2.3,-6.9,2.3,False
+imd_band,90-100%,0-10%,-0.9,-5.8,4.1,False
+imd_band,missing,0-10%,-3.7,-13.5,6.0,False
+disability,Y,N,-1.4,-4.7,1.9,False
+region,East Midlands Region,East Anglian Region,2.6,-2.3,7.4,False
+region,Ireland,East Anglian Region,-4.1,-9.0,0.8,False
+region,London Region,East Anglian Region,6.0,1.3,10.7,True
+region,North Region,East Anglian Region,1.0,-5.5,7.4,False
+region,North Western Region,East Anglian Region,10.5,5.4,15.7,True
+region,Scotland,East Anglian Region,-4.6,-8.6,-0.5,True
+region,South East Region,East Anglian Region,-0.4,-5.1,4.3,False
+region,South Region,East Anglian Region,-0.1,-4.7,4.4,False
+region,South West Region,East Anglian Region,-0.4,-5.0,4.2,False
+region,Wales,East Anglian Region,-10.1,-13.7,-6.5,True
+region,West Midlands Region,East Anglian Region,3.9,-0.9,8.7,False
+region,Yorkshire Region,East Anglian Region,0.3,-4.6,5.3,False
+num_of_prev_attempts,1,0,-2.0,-5.1,1.1,False
+num_of_prev_attempts,2+,0,2.4,-2.7,7.5,False
+studied_credits,61-90,<=60,1.8,-3.5,7.1,False
+studied_credits,>90,<=60,5.5,3.2,7.8,True
+reg_timing,1-30 days before,over 90 days before,-15.1,-17.8,-12.4,True
+reg_timing,31-60 days before,over 90 days before,-11.3,-14.1,-8.5,True
+reg_timing,61-90 days before,over 90 days before,-8.2,-11.4,-5.0,True
+reg_timing,day 0 or later,over 90 days before,-24.7,-30.2,-19.3,True
