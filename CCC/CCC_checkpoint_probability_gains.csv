@@ -1,0 +1,17 @@
+model,cohort,scenario,% affected,chance before (%),chance after (%),"gain, all (pts)","gain, affected (pts)"
+linear,fail,quiz_up,89.6,38.5,44.3,5.8,6.4
+linear,fail,forumng_up,90.5,38.5,40.1,1.6,1.8
+linear,fail,homepage_up,86.0,38.5,42.2,3.6,4.2
+linear,fail,all actions,97.6,38.5,48.9,10.4,10.6
+linear,late_leaver,quiz_up,92.3,68.6,72.9,4.3,4.7
+linear,late_leaver,forumng_up,88.2,68.6,69.8,1.2,1.4
+linear,late_leaver,homepage_up,81.5,68.6,71.2,2.6,3.2
+linear,late_leaver,all actions,97.6,68.6,76.1,7.5,7.7
+boosted,fail,quiz_up,89.6,36.7,42.7,5.9,6.6
+boosted,fail,forumng_up,90.5,36.7,39.2,2.4,2.7
+boosted,fail,homepage_up,86.0,36.7,42.2,5.5,6.4
+boosted,fail,all actions,97.6,36.7,48.4,11.6,11.9
+boosted,late_leaver,quiz_up,92.3,64.4,70.7,6.3,6.8
+boosted,late_leaver,forumng_up,88.2,64.4,67.8,3.4,3.8
+boosted,late_leaver,homepage_up,81.5,64.4,70.5,6.1,7.4
+boosted,late_leaver,all actions,97.6,64.4,74.8,10.4,10.7

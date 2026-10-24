@@ -1,0 +1,17 @@
+model,cohort,scenario,n,% affected,mean shift (all),mean shift (affected)
+linear,fail,quiz_up,781,89.6,0.138,0.154
+linear,fail,forumng_up,781,90.5,0.039,0.043
+linear,fail,homepage_up,781,86.0,0.086,0.1
+linear,fail,all actions,781,97.6,0.251,0.257
+linear,late_leaver,quiz_up,780,92.3,0.142,0.154
+linear,late_leaver,forumng_up,780,88.2,0.038,0.043
+linear,late_leaver,homepage_up,780,81.5,0.082,0.1
+linear,late_leaver,all actions,780,97.6,0.248,0.254
+boosted,fail,quiz_up,781,89.6,0.133,0.149
+boosted,fail,forumng_up,781,90.5,0.056,0.062
+boosted,fail,homepage_up,781,86.0,0.123,0.142
+boosted,fail,all actions,781,97.6,0.263,0.27
+boosted,late_leaver,quiz_up,780,92.3,0.188,0.203
+boosted,late_leaver,forumng_up,780,88.2,0.097,0.11
+boosted,late_leaver,homepage_up,780,81.5,0.183,0.224
+boosted,late_leaver,all actions,780,97.6,0.326,0.334

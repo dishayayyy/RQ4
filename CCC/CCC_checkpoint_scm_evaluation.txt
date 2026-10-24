@@ -1,0 +1,146 @@
+Evaluated the performance of the causal mechanisms and the invertibility assumption of the causal mechanisms and the overall average KL divergence between generated and observed distribution and the graph structure. The results are as follows:
+
+==== Evaluation of Causal Mechanisms ====
+The used evaluation metrics are:
+- KL divergence (only for root-nodes): Evaluates the divergence between the generated and the observed distribution.
+- Mean Squared Error (MSE): Evaluates the average squared differences between the observed values and the conditional expectation of the causal mechanisms.
+- Normalized MSE (NMSE): The MSE normalized by the standard deviation for better comparison.
+- R2 coefficient: Indicates how much variance is explained by the conditional expectations of the mechanisms. Note, however, that this can be misleading for nonlinear relationships.
+- F1 score (only for categorical non-root nodes): The harmonic mean of the precision and recall indicating the goodness of the underlying classifier model.
+- (normalized) Continuous Ranked Probability Score (CRPS): The CRPS generalizes the Mean Absolute Percentage Error to probabilistic predictions. This gives insights into the accuracy and calibration of the causal mechanisms.
+NOTE: Every metric focuses on different aspects and they might not consistently indicate a good or bad performance.
+We will mostly utilize the CRPS for comparing and interpreting the performance of the mechanisms, since this captures the most important properties for the causal model.
+
+--- Node region
+- The KL divergence between generated and observed distribution is 0.0.
+The estimated KL divergence indicates an overall very good representation of the data distribution.
+
+--- Node age_band
+- The KL divergence between generated and observed distribution is 0.0.
+The estimated KL divergence indicates an overall very good representation of the data distribution.
+
+--- Node num_of_prev_attempts
+- The KL divergence between generated and observed distribution is 0.0.
+The estimated KL divergence indicates an overall very good representation of the data distribution.
+
+--- Node highest_education
+- The MSE is 0.6495749613601236.
+- The NMSE is 1.002874479384119.
+- The R2 coefficient is -0.005873849539485954.
+- The normalized CRPS is 0.5396545388252586.
+The estimated CRPS indicates only a fair model performance. Note, however, that a high CRPS could also result from a small signal to noise ratio.
+The mechanism is better or equally good than all 7 baseline mechanisms.
+
+--- Node total_early
+- The MSE is 1.445212471616387.
+- The NMSE is 1.075866497961079.
+- The R2 coefficient is -0.15783108595227388.
+- The normalized CRPS is 0.564471525371654.
+The estimated CRPS indicates only a fair model performance. Note, however, that a high CRPS could also result from a small signal to noise ratio.
+The mechanism is better or equally good than all 7 baseline mechanisms.
+
+--- Node first_ass_score
+- The MSE is 0.7141164348274086.
+- The NMSE is 0.9116852247230277.
+- The R2 coefficient is 0.16860278524331.
+- The normalized CRPS is 0.4930340605074459.
+The estimated CRPS indicates only a fair model performance. Note, however, that a high CRPS could also result from a small signal to noise ratio.
+The mechanism is better or equally good than all 7 baseline mechanisms.
+
+--- Node clicks_resource_win
+- The MSE is 1.0506482912588013.
+- The NMSE is 0.9905315334705145.
+- The R2 coefficient is 0.0186687628189957.
+- The normalized CRPS is 0.5533618111265133.
+The estimated CRPS indicates only a fair model performance. Note, however, that a high CRPS could also result from a small signal to noise ratio.
+The mechanism is better or equally good than all 7 baseline mechanisms.
+
+--- Node clicks_quiz_win
+- The MSE is 1.000905890434484.
+- The NMSE is 0.858662089171586.
+- The R2 coefficient is 0.26254336272851575.
+- The normalized CRPS is 0.47345953741754165.
+The estimated CRPS indicates only a fair model performance. Note, however, that a high CRPS could also result from a small signal to noise ratio.
+The mechanism is better or equally good than all 7 baseline mechanisms.
+
+--- Node clicks_homepage_win
+- The MSE is 0.4056824470013548.
+- The NMSE is 0.6809085717175796.
+- The R2 coefficient is 0.5362479406571473.
+- The normalized CRPS is 0.3420610543628342.
+The estimated CRPS indicates a good model performance.
+The mechanism is better or equally good than all 7 baseline mechanisms.
+
+--- Node clicks_forumng_win
+- The MSE is 0.9589324899345506.
+- The NMSE is 0.8435607497780022.
+- The R2 coefficient is 0.2883110173728046.
+- The normalized CRPS is 0.4617846681299147.
+The estimated CRPS indicates only a fair model performance. Note, however, that a high CRPS could also result from a small signal to noise ratio.
+The mechanism is better or equally good than all 7 baseline mechanisms.
+
+--- Node clicks_oucontent_win
+- The MSE is 0.9184960978495239.
+- The NMSE is 0.8253920042671841.
+- The R2 coefficient is 0.3185207221489667.
+- The normalized CRPS is 0.4486858293159922.
+The estimated CRPS indicates only a fair model performance. Note, however, that a high CRPS could also result from a small signal to noise ratio.
+The mechanism is better or equally good than all 7 baseline mechanisms.
+
+--- Node final_result
+- The MSE is 0.820310740931555.
+- The NMSE is 0.8911490077993836.
+- The R2 coefficient is 0.2053627624270833.
+- The normalized CRPS is 0.48384747005995443.
+The estimated CRPS indicates only a fair model performance. Note, however, that a high CRPS could also result from a small signal to noise ratio.
+The mechanism is better or equally good than all 7 baseline mechanisms.
+
+==== Evaluation of Invertible Functional Causal Model Assumption ====
+
+--- The model assumption for node highest_education is rejected with a p-value of 0.0 (after potential adjustment) and a significance level of 0.05.
+This implies that the model assumption might not be valid. This is, the relationship cannot be represent with this type of mechanism or there is a hidden confounder between the node and its parents.
+
+--- The model assumption for node total_early is rejected with a p-value of 0.0011195572915084773 (after potential adjustment) and a significance level of 0.05.
+This implies that the model assumption might not be valid. This is, the relationship cannot be represent with this type of mechanism or there is a hidden confounder between the node and its parents.
+
+--- The model assumption for node first_ass_score is rejected with a p-value of 4.9960036108132044e-14 (after potential adjustment) and a significance level of 0.05.
+This implies that the model assumption might not be valid. This is, the relationship cannot be represent with this type of mechanism or there is a hidden confounder between the node and its parents.
+
+--- The model assumption for node clicks_forumng_win is rejected with a p-value of 0.0 (after potential adjustment) and a significance level of 0.05.
+This implies that the model assumption might not be valid. This is, the relationship cannot be represent with this type of mechanism or there is a hidden confounder between the node and its parents.
+
+--- The model assumption for node clicks_homepage_win is rejected with a p-value of 0.00018605185471753938 (after potential adjustment) and a significance level of 0.05.
+This implies that the model assumption might not be valid. This is, the relationship cannot be represent with this type of mechanism or there is a hidden confounder between the node and its parents.
+
+--- The model assumption for node clicks_oucontent_win is rejected with a p-value of 0.0 (after potential adjustment) and a significance level of 0.05.
+This implies that the model assumption might not be valid. This is, the relationship cannot be represent with this type of mechanism or there is a hidden confounder between the node and its parents.
+
+--- The model assumption for node clicks_quiz_win is rejected with a p-value of 0.0 (after potential adjustment) and a significance level of 0.05.
+This implies that the model assumption might not be valid. This is, the relationship cannot be represent with this type of mechanism or there is a hidden confounder between the node and its parents.
+
+--- The model assumption for node clicks_resource_win is rejected with a p-value of 0.0049869839465127574 (after potential adjustment) and a significance level of 0.05.
+This implies that the model assumption might not be valid. This is, the relationship cannot be represent with this type of mechanism or there is a hidden confounder between the node and its parents.
+
+--- The model assumption for node final_result is rejected with a p-value of 0.0009698286244486098 (after potential adjustment) and a significance level of 0.05.
+This implies that the model assumption might not be valid. This is, the relationship cannot be represent with this type of mechanism or there is a hidden confounder between the node and its parents.
+
+Note that these results are based on statistical independence tests, and the fact that the assumption was not rejected does not necessarily imply that it is correct. There is just no evidence against it.
+
+==== Evaluation of Generated Distribution ====
+The overall average KL divergence between the generated and observed distribution is 4.670212791291927
+The estimated KL divergence indicates a significant mismatches between the distributions. Consider using models that better fit the distribution. However, also note that regardless of the model choice, intrinsically weak connections or very small signal to noise ratios will always lead to a poor fit.
+
+==== Evaluation of the Causal Graph Structure ====
++-------------------------------------------------------------------------------------------------------+
+|                                         Falsification Summary                                         |
++-------------------------------------------------------------------------------------------------------+
+| The given DAG is informative because 0 / 50 of the permutations lie in the Markov                     |
+| equivalence class of the given DAG (p-value: 0.00).                                                   |
+| The given DAG violates 13/67 LMCs and is better than 100.0% of the permuted DAGs (p-value: 0.00).     |
+| Based on the provided significance level (0.2) and because the DAG is informative,                    |
+| we do not reject the DAG.                                                                             |
++-------------------------------------------------------------------------------------------------------+
+
+==== NOTE ====
+Always double check the made model assumptions with respect to the graph structure and choice of causal mechanisms.
+All these evaluations give some insight into the goodness of the causal model, but should not be overinterpreted, since some causal relationships can be intrinsically hard to model. Furthermore, many algorithms are fairly robust against misspecifications or poor performances of causal mechanisms.

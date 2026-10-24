@@ -1,0 +1,38 @@
+factor,level,compared with,effect (pts),CI low,CI high,clear
+gender,F,M,-0.9,-3.2,1.4,False
+age_band,35-55,0-35,-0.8,-2.9,1.3,False
+age_band,55<=,0-35,-2.0,-8.6,4.7,False
+highest_education,HE Qualification,A Level or Equivalent,-0.4,-2.7,1.9,False
+highest_education,Lower Than A Level,A Level or Equivalent,4.7,2.2,7.2,True
+highest_education,No Formal quals,A Level or Equivalent,17.6,1.8,33.4,True
+highest_education,Post Graduate Qualification,A Level or Equivalent,0.3,-4.1,4.7,False
+imd_band,0-10%,20-30%,-1.4,-6.8,4.0,False
+imd_band,10-20%,20-30%,-1.4,-6.6,3.9,False
+imd_band,30-40%,20-30%,-4.9,-9.7,-0.2,True
+imd_band,40-50%,20-30%,-4.5,-9.3,0.3,False
+imd_band,50-60%,20-30%,-5.7,-10.3,-1.0,True
+imd_band,60-70%,20-30%,-4.2,-9.0,0.7,False
+imd_band,70-80%,20-30%,-8.5,-13.0,-4.1,True
+imd_band,80-90%,20-30%,-7.6,-12.1,-3.1,True
+imd_band,90-100%,20-30%,-9.5,-13.9,-5.0,True
+imd_band,missing,20-30%,-12.7,-18.7,-6.7,True
+disability,Y,N,2.1,-1.8,6.1,False
+region,East Anglian Region,Scotland,5.4,2.0,8.9,True
+region,East Midlands Region,Scotland,8.0,3.5,12.5,True
+region,Ireland,Scotland,6.3,1.3,11.3,True
+region,London Region,Scotland,7.8,4.2,11.5,True
+region,North Region,Scotland,7.6,2.3,13.0,True
+region,North Western Region,Scotland,11.9,7.5,16.3,True
+region,South East Region,Scotland,10.3,5.6,15.0,True
+region,South Region,Scotland,8.9,5.1,12.8,True
+region,South West Region,Scotland,7.4,3.3,11.6,True
+region,Wales,Scotland,5.4,0.7,10.2,True
+region,West Midlands Region,Scotland,4.4,0.7,8.2,True
+region,Yorkshire Region,Scotland,9.7,4.8,14.6,True
+num_of_prev_attempts,1,0,-3.7,-7.3,-0.1,True
+studied_credits,61-90,<=60,7.6,4.8,10.5,True
+studied_credits,>90,<=60,10.1,7.2,12.9,True
+reg_timing,31-60 days before,1-30 days before,0.3,-2.4,2.9,False
+reg_timing,61-90 days before,1-30 days before,1.1,-2.1,4.3,False
+reg_timing,over 90 days before,1-30 days before,-0.4,-2.9,2.0,False
+code_presentation,2014B,2014J,-0.2,-2.2,1.8,False
