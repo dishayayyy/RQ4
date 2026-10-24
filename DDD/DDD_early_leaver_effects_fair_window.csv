@@ -1,0 +1,40 @@
+factor,level,compared with,effect (pts),CI low,CI high,clear
+gender,F,M,-0.3,-2.0,1.4,False
+age_band,35-55,0-35,-1.1,-3.0,0.8,False
+age_band,55<=,0-35,3.3,-5.6,12.2,False
+highest_education,HE Qualification,A Level or Equivalent,1.8,-0.5,4.0,False
+highest_education,Lower Than A Level,A Level or Equivalent,3.5,1.6,5.4,True
+highest_education,No Formal quals,A Level or Equivalent,2.5,-7.7,12.6,False
+highest_education,Post Graduate Qualification,A Level or Equivalent,3.3,-2.8,9.3,False
+imd_band,0-10%,30-40%,1.6,-2.5,5.6,False
+imd_band,10-20%,30-40%,3.2,-1.0,7.4,False
+imd_band,20-30%,30-40%,1.4,-2.4,5.1,False
+imd_band,40-50%,30-40%,-1.4,-4.9,2.2,False
+imd_band,50-60%,30-40%,-1.9,-5.4,1.6,False
+imd_band,60-70%,30-40%,-0.8,-4.4,2.9,False
+imd_band,70-80%,30-40%,-1.9,-5.5,1.6,False
+imd_band,80-90%,30-40%,-1.6,-5.3,2.0,False
+imd_band,90-100%,30-40%,-3.1,-6.6,0.4,False
+imd_band,missing,30-40%,-8.8,-13.9,-3.8,True
+disability,Y,N,3.0,0.1,5.9,True
+region,East Anglian Region,Scotland,7.5,4.6,10.5,True
+region,East Midlands Region,Scotland,7.0,3.5,10.5,True
+region,Ireland,Scotland,4.4,0.4,8.4,True
+region,London Region,Scotland,7.5,4.1,10.8,True
+region,North Region,Scotland,11.5,6.8,16.3,True
+region,North Western Region,Scotland,8.7,5.4,12.0,True
+region,South East Region,Scotland,8.7,5.1,12.3,True
+region,South Region,Scotland,7.4,4.4,10.4,True
+region,South West Region,Scotland,8.7,5.3,12.1,True
+region,Wales,Scotland,5.2,1.8,8.6,True
+region,West Midlands Region,Scotland,8.1,4.6,11.6,True
+region,Yorkshire Region,Scotland,9.0,5.0,13.1,True
+num_of_prev_attempts,1,0,-1.4,-3.8,1.0,False
+num_of_prev_attempts,2+,0,-0.3,-4.7,4.1,False
+studied_credits,61-90,<=60,1.3,-1.0,3.6,False
+studied_credits,>90,<=60,8.0,5.8,10.1,True
+reg_timing,1-30 days before,over 90 days before,-0.6,-3.1,1.9,False
+reg_timing,31-60 days before,over 90 days before,0.8,-1.3,2.8,False
+reg_timing,61-90 days before,over 90 days before,1.2,-1.2,3.6,False
+code_presentation,2014B,2013J,3.1,1.0,5.2,True
+code_presentation,2014J,2013J,5.7,3.8,7.5,True

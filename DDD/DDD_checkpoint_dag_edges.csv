@@ -1,0 +1,54 @@
+from,to,source
+region,highest_education,PC
+age_band,highest_education,PC
+disability,highest_education,PC
+highest_education,final_result,PC
+age_band,clicks_oucollaborate_win,PC
+num_of_prev_attempts,total_early,PC
+total_early,first_ass_score,PC
+total_early,clicks_externalquiz_win,PC
+total_early,clicks_forumng_win,PC
+total_early,clicks_homepage_win,PC
+total_early,clicks_ouwiki_win,PC
+total_early,clicks_subpage_win,PC
+first_ass_score,clicks_homepage_win,PC
+first_ass_score,final_result,PC
+clicks_homepage_win,clicks_externalquiz_win,PC
+clicks_subpage_win,clicks_externalquiz_win,PC
+clicks_forumng_win,clicks_homepage_win,PC
+clicks_oucollaborate_win,clicks_forumng_win,PC
+clicks_forumng_win,final_result,PC
+clicks_oucollaborate_win,clicks_homepage_win,PC
+clicks_oucontent_win,clicks_homepage_win,PC
+clicks_resource_win,clicks_homepage_win,PC
+clicks_subpage_win,clicks_homepage_win,PC
+clicks_url_win,clicks_homepage_win,PC
+clicks_url_win,clicks_oucollaborate_win,PC
+clicks_oucontent_win,clicks_ouwiki_win,PC
+clicks_oucontent_win,clicks_resource_win,PC
+clicks_oucontent_win,clicks_subpage_win,PC
+clicks_url_win,clicks_ouwiki_win,PC
+clicks_subpage_win,clicks_resource_win,PC
+clicks_resource_win,final_result,PC
+clicks_url_win,clicks_subpage_win,PC
+clicks_ouwiki_win,clicks_forumng_win,"PC, left out (cycle)"
+clicks_forumng_win,clicks_resource_win,"PC, left out (cycle)"
+clicks_resource_win,clicks_ouwiki_win,"PC, left out (cycle)"
+first_ass_score,clicks_externalquiz_win,added: early context
+first_ass_score,clicks_forumng_win,added: early context
+total_early,clicks_oucollaborate_win,added: early context
+first_ass_score,clicks_oucollaborate_win,added: early context
+total_early,clicks_oucontent_win,added: early context
+first_ass_score,clicks_oucontent_win,added: early context
+first_ass_score,clicks_ouwiki_win,added: early context
+total_early,clicks_resource_win,added: early context
+first_ass_score,clicks_resource_win,added: early context
+first_ass_score,clicks_subpage_win,added: early context
+total_early,clicks_url_win,added: early context
+first_ass_score,clicks_url_win,added: early context
+clicks_externalquiz_win,final_result,added: direct effect (Stage 4.5)
+clicks_homepage_win,final_result,added: direct effect (Stage 4.5)
+clicks_oucollaborate_win,final_result,added: direct effect (Stage 4.5)
+clicks_oucontent_win,final_result,added: direct effect (Stage 4.5)
+clicks_ouwiki_win,final_result,added: direct effect (Stage 4.5)
+clicks_subpage_win,final_result,added: direct effect (Stage 4.5)

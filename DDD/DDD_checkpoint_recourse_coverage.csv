@@ -1,0 +1,21 @@
+model,cohort,min gain (pts),<= 1 actions (%),<= 2 actions (%),<= 3 actions (%)
+linear,fail,3,93.9,94.7,94.7
+linear,fail,5,68.3,91.8,91.8
+linear,fail,10,7.9,60.9,76.0
+linear,fail,15,0.0,26.5,45.5
+linear,fail,20,0.0,0.0,21.9
+linear,late_leaver,3,70.3,84.6,84.6
+linear,late_leaver,5,19.0,69.5,70.7
+linear,late_leaver,10,0.0,15.6,17.5
+linear,late_leaver,15,0.0,0.2,11.3
+linear,late_leaver,20,0.0,0.0,0.2
+boosted,fail,3,62.8,69.1,69.4
+boosted,fail,5,53.4,63.4,64.2
+boosted,fail,10,35.0,49.0,51.0
+boosted,fail,15,20.0,34.5,36.7
+boosted,fail,20,12.8,22.1,25.2
+boosted,late_leaver,3,74.4,78.8,79.7
+boosted,late_leaver,5,60.4,68.0,69.1
+boosted,late_leaver,10,30.9,49.6,50.7
+boosted,late_leaver,15,12.9,28.1,31.9
+boosted,late_leaver,20,5.1,13.8,16.4
